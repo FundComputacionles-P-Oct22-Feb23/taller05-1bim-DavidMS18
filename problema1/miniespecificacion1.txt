@@ -3,7 +3,7 @@
 3. numeroKilovatio, d [0, n]
 4. edad, i [0, n ]
 5. descuento = 0.10
-6. valorTontal, d [0, n].
+6. valorTotal, d [0, n].
 
 7. Escribir "Ingresar el costo kilovatio por hora:"
 8. >> costoKilovatio
@@ -13,10 +13,10 @@
 12. >> edad
 13. valorPagar <-- (costoKilovatio * numeroKilovatio)
 14. Si edad > 65 entonces
-15.   descuento <-- (valorPagar * descuento)
-16.   valorPagar <-- (valorPagar - descuento)
+15.   descuento <-- (valorTotal * descuento)
+16.   valorTotal <-- (valorTotal - descuento)
 17. Fin Si
 
-18. Escribir "El costo de la planilla de luz es: " + valorPagar"
+18. Escribir "El costo de la planilla de luz es: " + valorTotal"
 
 19. Fin

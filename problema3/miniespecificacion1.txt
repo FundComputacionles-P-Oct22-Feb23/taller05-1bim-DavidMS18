@@ -9,7 +9,7 @@
 8.   temperatura◦F <-- 9/5 * temperatura◦C + 32
 9.   temperatura◦K <-- temperatura◦C + 273.15
 
-10.   << "La temperatura en grados Farenheit es de:" + "temperatura◦F"
+10.   << "La temperatura en grados Farenheit es:" + "temperatura◦F"
 11.   << "La temperatura en grados Kelvin es:" + "temperatura◦K"
 12. Fin Si
 13. Fin
