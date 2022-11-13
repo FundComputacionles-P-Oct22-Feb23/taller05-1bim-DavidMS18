@@ -1,0 +1,15 @@
+1. Inicio
+2. temperatura◦C, d[-n,n]
+3. temperatura◦F, d[-n,n]
+4. temperatura◦K, d[0,n]
+
+5. << "Ingrese su temperatura en grados centigrados:"
+6. >> temperatura◦C
+7. Si temperatura◦C <= 100 entonces
+8.   temperatura◦F <-- 9/5 * temperatura◦C + 32
+9.   temperatura◦K <-- temperatura◦C + 273.15
+
+10.   << "La temperatura en grados Farenheit es de:" + "temperatura◦F"
+11.   << "La temperatura en grados Kelvin es:" + "temperatura◦K"
+12. Fin Si
+13. Fin

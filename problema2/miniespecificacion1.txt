@@ -1,0 +1,22 @@
+01. Inicio
+
+02. detallesPedido, x(10)[{a-z}, {A-Z}, {BS}]
+03. cantidad, i[0,n]
+04. precioUnitario, d[0,n]
+05. descuento <-- 0.15
+06. valorTotal, d[0,n]
+
+07. << "Ingrese la descripción del pedido:"
+08. >> detallesPedido
+09. << "Ingrese la cantidad del producto:"
+10. >> cantidad
+11. << "Ingrese el precio por unidad"
+12. >> precioUnitario
+13. valorTotal <-- precioUnitario * cantidad
+14. Si cantidad > 50 entonces
+15.   descuento <-- (valorTotal * descuento)
+16.   valorTotal <-- (valorTotal - descuento)
+17. Fin Si
+
+18. << ("El costo del pedido es: " + valorTotal")
+19. Fin
